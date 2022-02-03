@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 def merge_sort(m):
 	"""Sort list m, using merge sort"""
 	return m.sort() # TODO: Replace with actual implementation
@@ -25,7 +23,6 @@ def merge_sort2(m):
     # Merge and return
     return list(merge(right, left))
 
->>>>>>> mergesort-impl
 def merge_sort4(m):
     """Sort list, using four part merge sort"""
     if len(m) <= 4:
